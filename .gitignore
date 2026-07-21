@@ -41,5 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 # Claude
-CLAUDE.md 
-.mcp.json
+CLAUDE.md
+.mcp*
