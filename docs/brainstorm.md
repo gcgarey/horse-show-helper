@@ -29,7 +29,7 @@
 - Push notifications
 - A single clean countdown screen
 ### Notes
-The countdown screen is the whole product — it needs to be glanceable, readable in bright sunlight, and trustworthy. **Before writing a line of app code, validate per-cluster interval estimates against real SGL data from past shows.** Timing model accuracy is what V1 lives or dies on.
+The countdown screen is the whole product — it needs to be glanceable, readable in bright sunlight, and trustworthy. 
  
 ---
  
