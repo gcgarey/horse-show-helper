@@ -18,9 +18,17 @@
 
 ---
 
+- ✅ **Step 5** — `lib/timing.ts`: pure `calculateTimes()` with TypeScript types; handles null class_status, resolves numeric columns
+- ✅ **Step 6** — User entries API routes: GET, POST, PATCH, DELETE, advance (+1 horse count), complete
+- ✅ **Step 7** — `GET` + `PATCH /api/user/profile` (warmup_minutes, phone)
+- ✅ **Step 8** — Home screen: `EntryCard`, `CountdownTimer`, `app/(app)/page.tsx` (polls every 30s; empty state with CTA)
+- ✅ **Phase 2 complete**
+
+---
+
 ## Next
 
-- Phase 2, Step 5: `lib/timing.ts` — pure `calculateTimes()` function
-- Phase 2, Step 6: User entries API routes (CRUD + advance + complete)
-- Phase 2, Step 7: Profile API routes
-- Phase 2, Step 8: Home screen (`EntryCard`, `CountdownTimer` components)
+- Phase 3, Step 9: Reverse-engineer SGL API endpoints via browser DevTools (manual step)
+- Phase 3, Step 10: `lib/sgl.ts` — SGL adapter (searchShows, getClassesForShow, getClassStatus)
+- Phase 3, Step 11: Shows + classes API routes + UI (show select, class browser)
+- Phase 3, Step 12: SGL polling cron (`/api/cron/poll-sgl`)
