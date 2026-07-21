@@ -93,6 +93,7 @@ Background (Vercel Cron):
 | id | uuid PK | Supabase Auth user id |
 | phone | text | Required; used for SMS |
 | warmup_minutes | int | Default 20; user-level preference |
+| active_show_id | uuid FK → shows | NULL when no active show selected |
 | created_at | timestamptz | |
 
 ### `shows`
@@ -246,7 +247,7 @@ app/
     classes/
       browse/      — Browse + add classes for active show
     settings/      — Warmup preference, account, logout
-  layout.tsx       — Auth guard; redirects unauthenticated users
+proxy.ts           — Auth guard; redirects unauthenticated users (Next.js 16: renamed from middleware.ts)
   
 components/
   EntryCard        — Per-class card: time to round, time to mount, advance button
